@@ -1,0 +1,8 @@
+{
+  "name": "Production Maintenance Decision Intelligence",
+  "description": "Deterministic, explainable industrial maintenance decision-support platform contrasting Option A (Intervene Now) vs Option B (Run to Failure) with mandatory safety overrides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

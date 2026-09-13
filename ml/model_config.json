@@ -1,0 +1,43 @@
+{
+  "model_name": "Random Forest Pipeline (100 Estimators)",
+  "model_type": "scikit-learn Pipeline (RandomForestClassifier)",
+  "dataset": "AI4I 2020 Predictive Maintenance Dataset",
+  "dataset_records": 10000,
+  "features": [
+    "Type",
+    "Air temperature [K]",
+    "Process temperature [K]",
+    "Rotational speed [rpm]",
+    "Torque [Nm]",
+    "Tool wear [min]"
+  ],
+  "target": "Machine failure",
+  "excluded_leakage_fields": [
+    "UDI",
+    "Product ID",
+    "TWF",
+    "HDF",
+    "PWF",
+    "OSF",
+    "RNF"
+  ],
+  "thresholds": {
+    "low_risk_max": 0.20,
+    "medium_risk_max": 0.40,
+    "decision_threshold": 0.40
+  },
+  "metrics": {
+    "roc_auc": 0.9662,
+    "threshold": 0.40,
+    "precision": 0.632911,
+    "recall": 0.735294,
+    "f1_score": 0.680272
+  },
+  "key_model_factors": [
+    "Torque [Nm]",
+    "Rotational speed [rpm]",
+    "Tool wear [min]",
+    "Air temperature [K]",
+    "Process temperature [K]"
+  ]
+}

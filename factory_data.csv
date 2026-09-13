@@ -1,0 +1,36 @@
+stage,machine_id,machine_name,capacity_per_hour,operator,line_loss_rate,error_id,failure_mode,category,symptom,planned_downtime_min,planned_part_cost,planned_labor_cost,unplanned_downtime_min,replacement_cost,freight_cost,idle_labor_cost,emergency_tech_cost,scrap_cost,safety_override
+Stage 1,M-101,Hydraulic Stamping Press,100,Tariq M. · Lead Operator / Kashif R.,180000,M1-E01,Hydraulic Seal Weeping,Mechanical,Oil weeping along main cylinder rod.,15,8500,3000,180,145000,45000,18000,25000,35000,False
+Stage 1,M-101,Hydraulic Stamping Press,100,Tariq M. · Lead Operator / Kashif R.,180000,M1-E02,Motor Terminal Overheating,Electrical,High-resistance lug hot spot (88°C).,10,4000,2500,120,180000,25000,12000,30000,15000,False
+Stage 1,M-101,Hydraulic Stamping Press,100,Tariq M. · Lead Operator / Kashif R.,180000,M1-E03,Flywheel Bushing Wear,Mechanical,Vibration harmonic during stroke.,20,12000,4000,240,320000,75000,24000,40000,50000,False
+Stage 1,M-101,Hydraulic Stamping Press,100,Tariq M. · Lead Operator / Kashif R.,180000,M1-E04,Light Curtain Alignment,Safety,Optical sensor misalignment trip.,10,5000,2000,0,0,0,0,0,0,True
+Stage 1,M-101,Hydraulic Stamping Press,100,Tariq M. · Lead Operator / Kashif R.,180000,M1-E05,Punch Die Micro-Cracking,Mechanical,Workpiece burr height exceeds 0.2mm.,25,18000,5000,210,480000,60000,21000,45000,120000,False
+Stage 2,M-201,CNC Milling Center A,50,Salman A. · M-201,120000,M2-E01,Ceramic Bearing Wear,Mechanical,Spindle runout 12µm with acoustic whine.,20,35000,4000,300,650000,110000,24000,50000,85000,False
+Stage 2,M-201,CNC Milling Center A,50,Salman A. · M-201,120000,M2-E02,Servo Encoder Jitter,Electrical,Sinamics drive tracking warning.,15,14000,3500,150,290000,50000,12000,30000,95000,False
+Stage 2,M-201,CNC Milling Center A,50,Salman A. · M-201,120000,M2-E03,Pump Cavitation,Mechanical,Coolant line pressure dips < 3 bar.,10,6000,2000,110,130000,25000,8800,18000,40000,False
+Stage 2,M-201,CNC Milling Center A,50,Salman A. · M-201,120000,M2-E04,Solenoid Overheating,Electrical,Tool changer arm cycle delay > 1.8s.,10,7500,2500,140,340000,60000,11200,25000,65000,False
+Stage 2,M-201,CNC Milling Center A,50,Salman A. · M-201,120000,M2-E05,Enclosure Interlock Fault,Safety,Spindle continues spinning with door open.,10,9000,2500,0,0,0,0,0,0,True
+Stage 2,M-202,CNC Milling Center B,50,Imran P. · M-202,120000,M2-E01,Ceramic Bearing Wear,Mechanical,Spindle runout 12µm with acoustic whine.,20,35000,4000,300,650000,110000,24000,50000,85000,False
+Stage 2,M-202,CNC Milling Center B,50,Imran P. · M-202,120000,M2-E02,Servo Encoder Jitter,Electrical,Sinamics drive tracking warning.,15,14000,3500,150,290000,50000,12000,30000,95000,False
+Stage 2,M-202,CNC Milling Center B,50,Imran P. · M-202,120000,M2-E03,Pump Cavitation,Mechanical,Coolant line pressure dips < 3 bar.,10,6000,2000,110,130000,25000,8800,18000,40000,False
+Stage 2,M-202,CNC Milling Center B,50,Imran P. · M-202,120000,M2-E04,Solenoid Overheating,Electrical,Tool changer arm cycle delay > 1.8s.,10,7500,2500,140,340000,60000,11200,25000,65000,False
+Stage 2,M-202,CNC Milling Center B,50,Imran P. · M-202,120000,M2-E05,Enclosure Interlock Fault,Safety,Spindle continues spinning with door open.,10,9000,2500,0,0,0,0,0,0,True
+Stage 3,M-301,Packaging Cell 1,25,Zahid H. · Line A,45000,M3-E01,Conveyor Belt Skew,Mechanical,Belt edge rubbing side chassis guide.,15,5000,2500,90,78000,20000,6000,14000,22000,False
+Stage 3,M-301,Packaging Cell 1,25,Zahid H. · Line A,45000,M3-E02,Vacuum Sensor Drift,Electrical,Negative pressure fluctuations during case pick.,10,4500,2000,75,85000,18000,5000,12000,48000,False
+Stage 3,M-301,Packaging Cell 1,25,Zahid H. · Line A,45000,M3-E03,Nozzle Carbonization,Mechanical,Adhesive stringing and partial glue flap bead.,10,6000,2000,80,115000,22000,5300,14000,15000,False
+Stage 3,M-301,Packaging Cell 1,25,Zahid H. · Line A,45000,M3-E04,Scanner Link Timeout,Electrical,EtherNet/IP dropped packets freeze sorting.,10,7000,2000,60,165000,28000,4000,12000,5000,False
+Stage 3,M-301,Packaging Cell 1,25,Zahid H. · Line A,45000,M3-E05,E-Stop Ground Fault,Safety,Emergency loop fails continuity self-test.,10,6500,2000,0,0,0,0,0,0,True
+Stage 3,M-302,Packaging Cell 2,25,Zahid H. · Line A,45000,M3-E01,Conveyor Belt Skew,Mechanical,Belt edge rubbing side chassis guide.,15,5000,2500,90,78000,20000,6000,14000,22000,False
+Stage 3,M-302,Packaging Cell 2,25,Zahid H. · Line A,45000,M3-E02,Vacuum Sensor Drift,Electrical,Negative pressure fluctuations during case pick.,10,4500,2000,75,85000,18000,5000,12000,48000,False
+Stage 3,M-302,Packaging Cell 2,25,Zahid H. · Line A,45000,M3-E03,Nozzle Carbonization,Mechanical,Adhesive stringing and partial glue flap bead.,10,6000,2000,80,115000,22000,5300,14000,15000,False
+Stage 3,M-302,Packaging Cell 2,25,Zahid H. · Line A,45000,M3-E04,Scanner Link Timeout,Electrical,EtherNet/IP dropped packets freeze sorting.,10,7000,2000,60,165000,28000,4000,12000,5000,False
+Stage 3,M-302,Packaging Cell 2,25,Zahid H. · Line A,45000,M3-E05,E-Stop Ground Fault,Safety,Emergency loop fails continuity self-test.,10,6500,2000,0,0,0,0,0,0,True
+Stage 3,M-303,Packaging Cell 3,25,Bilal N. · Line B,45000,M3-E01,Conveyor Belt Skew,Mechanical,Belt edge rubbing side chassis guide.,15,5000,2500,90,78000,20000,6000,14000,22000,False
+Stage 3,M-303,Packaging Cell 3,25,Bilal N. · Line B,45000,M3-E02,Vacuum Sensor Drift,Electrical,Negative pressure fluctuations during case pick.,10,4500,2000,75,85000,18000,5000,12000,48000,False
+Stage 3,M-303,Packaging Cell 3,25,Bilal N. · Line B,45000,M3-E03,Nozzle Carbonization,Mechanical,Adhesive stringing and partial glue flap bead.,10,6000,2000,80,115000,22000,5300,14000,15000,False
+Stage 3,M-303,Packaging Cell 3,25,Bilal N. · Line B,45000,M3-E04,Scanner Link Timeout,Electrical,EtherNet/IP dropped packets freeze sorting.,10,7000,2000,60,165000,28000,4000,12000,5000,False
+Stage 3,M-303,Packaging Cell 3,25,Bilal N. · Line B,45000,M3-E05,E-Stop Ground Fault,Safety,Emergency loop fails continuity self-test.,10,6500,2000,0,0,0,0,0,0,True
+Stage 3,M-304,Packaging Cell 4,25,Bilal N. · Line B,45000,M3-E01,Conveyor Belt Skew,Mechanical,Belt edge rubbing side chassis guide.,15,5000,2500,90,78000,20000,6000,14000,22000,False
+Stage 3,M-304,Packaging Cell 4,25,Bilal N. · Line B,45000,M3-E02,Vacuum Sensor Drift,Electrical,Negative pressure fluctuations during case pick.,10,4500,2000,75,85000,18000,5000,12000,48000,False
+Stage 3,M-304,Packaging Cell 4,25,Bilal N. · Line B,45000,M3-E03,Nozzle Carbonization,Mechanical,Adhesive stringing and partial glue flap bead.,10,6000,2000,80,115000,22000,5300,14000,15000,False
+Stage 3,M-304,Packaging Cell 4,25,Bilal N. · Line B,45000,M3-E04,Scanner Link Timeout,Electrical,EtherNet/IP dropped packets freeze sorting.,10,7000,2000,60,165000,28000,4000,12000,5000,False
+Stage 3,M-304,Packaging Cell 4,25,Bilal N. · Line B,45000,M3-E05,E-Stop Ground Fault,Safety,Emergency loop fails continuity self-test.,10,6500,2000,0,0,0,0,0,0,True
